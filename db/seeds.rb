@@ -2,6 +2,10 @@
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
 # Examples:
+
+Coupon.create(coupon_code: "ASD123", store: "Chipotle")
+Coupon.create(coupon_code: "XYZ098", store: "Jamba") 
+Coupon.create(coupon_code:)
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
